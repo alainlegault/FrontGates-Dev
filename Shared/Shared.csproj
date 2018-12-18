@@ -31,9 +31,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Practices.Unity, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Practices.Unity\1.2.0.0__31bf3856ad364e35\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Attributes\DbTableNameAttributes.cs" />
     <Compile Include="Attributes\FriendlyDescriptionAttributes.cs" />
+    <Compile Include="Configurations\Configuration.cs" />
     <Compile Include="Database\DataReaderExtensions.cs" />
     <Compile Include="Database\DbCommandExtensions.cs" />
     <Compile Include="Exceptions\BaseException.cs" />
@@ -52,6 +59,7 @@
     <Compile Include="Extensions\DateExtension.cs" />
     <Compile Include="Extensions\Enums.cs" />
     <Compile Include="Extensions\GenericExtension.cs" />
+    <Compile Include="Extensions\GuidExtensions.cs" />
     <Compile Include="Extensions\LinqExtension.cs" />
     <Compile Include="Extensions\String.cs" />
     <Compile Include="Logging\Backend\BackendLogger.cs" />
@@ -75,11 +83,14 @@
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\DbRepository.cs" />
+    <Compile Include="Repositories\DbUnitOfWork.cs" />
     <Compile Include="Repositories\DbUtils.cs" />
     <Compile Include="Repositories\DomainContext.cs" />
     <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Repositories\IUnitOfWork.cs" />
     <Compile Include="Security\SaltedHash.cs" />
     <Compile Include="Security\StringEncryptor.cs" />
+    <Compile Include="Unity\HttpContextLIfetimeManager.cs" />
     <Compile Include="Utils\StringEncoding.cs" />
   </ItemGroup>
   <ItemGroup />
