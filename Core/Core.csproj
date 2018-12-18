@@ -54,10 +54,6 @@
       <Project>{05b8ec17-89a3-4e10-a8ae-153d32840f85}</Project>
       <Name>Cache</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FrontGatesDev.Logs.csproj">
-      <Project>{5bf80c5b-9af9-401f-b737-c236861e82a0}</Project>
-      <Name>FrontGatesDev.Logs</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Shared\Shared.csproj">
       <Project>{28f74455-e8ea-4058-b291-9d23f80d33aa}</Project>
       <Name>Shared</Name>
