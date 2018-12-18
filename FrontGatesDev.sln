@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "..\Api\Api.csproj", "{BAE58D16-796D-4EFA-AC06-9C80C9DFDA09}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{28F74455-E8EA-4058-B291-9D23F80D33AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{8FC14732-4CF4-4706-B949-C318B3CB5BB8}"
@@ -13,16 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cache", "Cache\Cache.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Api", "Web.Api\Web.Api.csproj", "{29022869-FB44-440F-93E6-2BE043DB6478}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{BAE58D16-796D-4EFA-AC06-9C80C9DFDA09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BAE58D16-796D-4EFA-AC06-9C80C9DFDA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BAE58D16-796D-4EFA-AC06-9C80C9DFDA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BAE58D16-796D-4EFA-AC06-9C80C9DFDA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BAE58D16-796D-4EFA-AC06-9C80C9DFDA09}.Release|Any CPU.Build.0 = Release|Any CPU
 		{28F74455-E8EA-4058-B291-9D23F80D33AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{28F74455-E8EA-4058-B291-9D23F80D33AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28F74455-E8EA-4058-B291-9D23F80D33AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{29022869-FB44-440F-93E6-2BE043DB6478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29022869-FB44-440F-93E6-2BE043DB6478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29022869-FB44-440F-93E6-2BE043DB6478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE58D16-796D-4EFA-AC06-9C80C9DFDA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE58D16-796D-4EFA-AC06-9C80C9DFDA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE58D16-796D-4EFA-AC06-9C80C9DFDA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE58D16-796D-4EFA-AC06-9C80C9DFDA09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
