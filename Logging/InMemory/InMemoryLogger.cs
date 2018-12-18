@@ -1,12 +1,12 @@
-﻿using FrontGatesDev.Logger.Config;
-using FrontGatesDev.Logger.Models;
+﻿using FrontGatesDev.Logs.Config;
+using FrontGatesDev.Logs.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FrontGatesDev.Logger.Logging.InMemory
+namespace FrontGatesDev.Logs.Logging.InMemory
 {
 	public interface IInMemoryLogger : ICustomLogger
 	{

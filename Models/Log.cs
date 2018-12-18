@@ -1,11 +1,11 @@
-﻿using FrontGatesDev.Logger.Logging;
+﻿using FrontGatesDev.Logs.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FrontGatesDev.Logger.Models
+namespace FrontGatesDev.Logs.Models
 {
 	public class Log
 	{

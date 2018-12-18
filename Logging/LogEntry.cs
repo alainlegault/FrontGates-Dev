@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FrontGatesDev.Logger.Logging
+namespace FrontGatesDev.Logs.Logging
 {
 	public class LogEntry
 	{

@@ -1,11 +1,11 @@
-﻿using FrontGatesDev.Logger.Logging;
+﻿using FrontGatesDev.Logs.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FrontGatesDev.Logger.Config
+namespace FrontGatesDev.Logs.Config
 {
 	public class CustomLoggingConfig
 	{

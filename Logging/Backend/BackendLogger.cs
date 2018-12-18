@@ -1,6 +1,7 @@
-﻿using FrontGatesDev.Logger.Config;
-using FrontGatesDev.Logger.Extensions;
-using FrontGatesDev.Logger.Models;
+﻿using FrontGatesDev.Logs.Config;
+using FrontGatesDev.Logs.Models;
+using Shared.Database;
+using Shared.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -9,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FrontGatesDev.Logger.Logging.Backend
+namespace FrontGatesDev.Logs.Logging.Backend
 {
 	public interface IBackendLogger : ICustomLogger
 	{
@@ -67,7 +68,7 @@ namespace FrontGatesDev.Logger.Logging.Backend
 			if (!_config.UseDatabase)
 				return base.GetLogs(dt1, dt2);
 
-			if (dt2.IsEarlierThanSource(dt1))
+			if (dt2.IsDateEarlierThanSource(dt1))
 				return GetLogsFromDatabase(null, dt2, dt1);
 
 			return GetLogsFromDatabase(null, dt1, dt2);

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FrontGatesDev.Logger.Extensions
+namespace FrontGatesDev.Logs.Extensions
 {
 	public static class DateExtensions
 	{

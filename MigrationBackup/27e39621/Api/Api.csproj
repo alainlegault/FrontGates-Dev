@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5BF80C5B-9AF9-401F-B737-C236861E82A0}</ProjectGuid>
+    <ProjectGuid>{BAE58D16-796D-4EFA-AC06-9C80C9DFDA09}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FrontGatesDev.Logger</RootNamespace>
-    <AssemblyName>FrontGatesDev.Logger</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Api</RootNamespace>
+    <AssemblyName>Api</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,10 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,22 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Config\BackendLoggingConfig.cs" />
-    <Compile Include="Config\CustomLoggingConfig.cs" />
-    <Compile Include="Config\FrontendLoggingConfig.cs" />
-    <Compile Include="Extensions\DataReaderExtensions.cs" />
-    <Compile Include="Extensions\DateExtensions.cs" />
-    <Compile Include="Extensions\DbCommandExtensions.cs" />
-    <Compile Include="Logging\Backend\BackendLogger.cs" />
-    <Compile Include="Logging\CustomLogger.cs" />
-    <Compile Include="Logging\Frontend\FrontendLogger.cs" />
-    <Compile Include="Logging\InMemory\InMemoryLogger.cs" />
-    <Compile Include="Logging\LogEntry.cs" />
-    <Compile Include="Logging\LogLevel.cs" />
-    <Compile Include="Logging\LogUtilities.cs" />
-    <Compile Include="Logging\PerformanceLogEntry.cs" />
-    <Compile Include="Logging\ShortFileLogger.cs" />
-    <Compile Include="Models\Log.cs" />
+    <Compile Include="Synchronizer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

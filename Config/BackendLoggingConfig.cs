@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FrontGatesDev.Logger.Config
+namespace FrontGatesDev.Logs.Config
 {
 	/// <summary>
 	/// Represents a configuration fragment for the "Logging' section in the appsettings.json file.

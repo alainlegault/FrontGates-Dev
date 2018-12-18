@@ -1,5 +1,5 @@
-﻿using FrontGatesDev.Logger.Config;
-using FrontGatesDev.Logger.Models;
+﻿using FrontGatesDev.Logs.Config;
+using FrontGatesDev.Logs.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace FrontGatesDev.Logger.Logging
+namespace FrontGatesDev.Logs.Logging
 {
 	/// <summary>
 	/// Implementation of the <see cref="ShortFileLogger"/> contract

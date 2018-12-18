@@ -1,5 +1,5 @@
-﻿using FrontGatesDev.Logger.Config;
-using FrontGatesDev.Logger.Models;
+﻿using FrontGatesDev.Logs.Config;
+using FrontGatesDev.Logs.Models;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FrontGatesDev.Logger.Logging
+namespace FrontGatesDev.Logs.Logging
 {
 	public interface ICustomLogger
 	{

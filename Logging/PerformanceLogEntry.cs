@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FrontGatesDev.Logger.Logging
+namespace FrontGatesDev.Logs.Logging
 {
 	/// <summary>
 	/// Represents a performance log entry.
